@@ -91,6 +91,8 @@ require("lazy").setup({
             },
           },
         },
+
+        fuzzy = { implementation = "lua" },
       },
     },
     --[[{
@@ -130,6 +132,6 @@ require("lazy").setup({
             require('wincent.commandt').setup({})
         end,
     },
-    {'skywind3000/asyncrun.vim'}
+    {'skywind3000/asyncrun.vim'},
 })
 
