@@ -2,6 +2,7 @@
 vim.g.mapleader = "\\"
 vim.keymap.set("n", "<leader>e", vim.cmd.Ex)
 vim.keymap.set("n", "<leader>xe", ":Rex<CR>")
+vim.keymap.set("n", "<leader>rm", ":RenderMarkdown toggle<CR>")
 --vim.keymap.set("n", "<leader>rz", ":source ~\\AppData\\Local\\nvim\\init.lua<CR>")
 --navigation
 vim.keymap.set("n", "<C-S-Left>", "<C-o>")

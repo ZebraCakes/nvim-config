@@ -44,7 +44,7 @@ capabilities = require('blink.cmp').get_lsp_capabilities(capabilities)
 ]]
 require('mason').setup({})
 require('mason-lspconfig').setup({
-    ensure_installed = {'clangd', 'lua_ls', 'pylsp', 'zls', 'omnisharp', 'ols'},
+    ensure_installed = {'clangd', 'lua_ls', 'pylsp', 'zls', 'ols', 'marksman'},
     --[[handlers = {
         lsp_zero.default_setup,
     },

@@ -133,5 +133,10 @@ require("lazy").setup({
         end,
     },
     {'skywind3000/asyncrun.vim'},
+    {
+        'MeanderingProgrammer/render-markdown.nvim',
+        dependencies = { 'nvim-treesitter'},
+        opts = {},
+    },
 })
 
