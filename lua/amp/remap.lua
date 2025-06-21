@@ -51,7 +51,7 @@ vim.keymap.set("n", "<A-Right>", ":BF<CR>")
 -- Function Keys
 vim.keymap.set("n", "<F2>", ":ToggleBufExplorer<CR>")
 vim.keymap.set("n", "<F4>", vim.cmd.close)
-vim.keymap.set("n", "<F5>", ":e ~/.config/nvim/init.lua<CR>")
+vim.keymap.set("n", "<F5>", ":e ~/.config/nvim/lua/amp/lazy.lua<CR>")
 -- vim.keymap.set("n", "<F7>", ":wa<CR>:copen<CR>:AsyncRun build -alin64 main sds2-ui api2 convert pydiodb<CR>")
 vim.keymap.set("n", "<F7>", ":wa<CR>:copen<CR>:AsyncRun build all<CR>")
 vim.keymap.set("n", "<F8>", ":wa<CR>:copen<CR>:AsyncRun build -arel -awin64 api2 binzip-64<CR>")
